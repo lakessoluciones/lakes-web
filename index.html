@@ -92,7 +92,7 @@ h1,h2,h3{margin:0;font-family:var(--f-display);text-wrap:balance}
 .logo{display:flex;align-items:center;gap:10px;font-family:var(--f-display);font-weight:600;font-size:24px;color:var(--white);justify-self:start;transition:color .15s ease}
 .nav.on-light .logo{color:var(--ink)}
 .nav.on-light .nav-links,.nav.on-light .nav-cta{background:rgba(255,255,255,.82);border-color:var(--ash)}
-.nav::before{content:"";position:absolute;inset:-16px 0 -14px;background:linear-gradient(var(--mist) 55%,rgba(243,244,246,0));opacity:0;transition:opacity .2s ease;pointer-events:none}
+.nav::before{content:"";position:absolute;z-index:-1;inset:-16px 0 -14px;background:linear-gradient(var(--mist) 78%,rgba(243,244,246,0));opacity:0;transition:opacity .2s ease;pointer-events:none}
 .nav.on-light::before{opacity:1}
 .nav.on-light .nav-links a{color:var(--muted)}
 .nav.on-light .nav-links a:hover{color:var(--ink);background:rgba(7,8,13,.05)}
